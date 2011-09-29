@@ -1,0 +1,480 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6BD7097E14351E680086F945 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BD7097D14351E680086F945 /* UIKit.framework */; };
+		6BD7098014351E680086F945 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BD7097F14351E680086F945 /* Foundation.framework */; };
+		6BD7098214351E680086F945 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BD7098114351E680086F945 /* CoreGraphics.framework */; };
+		6BD7098814351E680086F945 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6BD7098614351E680086F945 /* InfoPlist.strings */; };
+		6BD7098B14351E680086F945 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BD7098A14351E680086F945 /* main.m */; };
+		6BD7098E14351E680086F945 /* GrouponApiAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BD7098D14351E680086F945 /* GrouponApiAppDelegate.m */; };
+		6BD7099114351E680086F945 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6BD7098F14351E680086F945 /* MainWindow.xib */; };
+		6BD7099814351EC40086F945 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BD7099714351EC40086F945 /* CoreLocation.framework */; };
+		6BD7099A14351F330086F945 /* top_bar.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BD7099914351F330086F945 /* top_bar.png */; };
+		6BD709A014351F840086F945 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BD7099F14351F840086F945 /* Reachability.m */; };
+		6BD709AF14351FC20086F945 /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BD709A414351FC20086F945 /* NSObject+SBJSON.m */; };
+		6BD709B014351FC20086F945 /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BD709A614351FC20086F945 /* NSString+SBJSON.m */; };
+		6BD709B114351FC20086F945 /* SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BD709A814351FC20086F945 /* SBJSON.m */; };
+		6BD709B214351FC20086F945 /* SBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BD709AA14351FC20086F945 /* SBJsonBase.m */; };
+		6BD709B314351FC20086F945 /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BD709AC14351FC20086F945 /* SBJsonParser.m */; };
+		6BD709B414351FC20086F945 /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BD709AE14351FC20086F945 /* SBJsonWriter.m */; };
+		6BD709BB14351FFE0086F945 /* DealsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BD709B814351FFE0086F945 /* DealsViewController.m */; };
+		6BD709BC14351FFE0086F945 /* DealsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BD709BA14351FFE0086F945 /* DealsCell.m */; };
+		6BD709C0143520440086F945 /* WebPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BD709BF143520440086F945 /* WebPageViewController.m */; };
+		6BD709C31435208C0086F945 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BD709C11435208C0086F945 /* libxml2.dylib */; };
+		6BD709C41435208C0086F945 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BD709C21435208C0086F945 /* SystemConfiguration.framework */; };
+		6BD709C8143521240086F945 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BD709C7143521240086F945 /* MainViewController.m */; };
+		6BD709CB143521AD0086F945 /* dealsBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BD709C9143521AD0086F945 /* dealsBtn.png */; };
+		6BD709CC143521AD0086F945 /* dealsBtn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BD709CA143521AD0086F945 /* dealsBtn@2x.png */; };
+		6BD709CF1435238F0086F945 /* menu.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BD709CD1435238F0086F945 /* menu.png */; };
+		6BD709D01435238F0086F945 /* menu@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BD709CE1435238F0086F945 /* menu@2x.png */; };
+		6BD709D3143523BD0086F945 /* background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BD709D1143523BD0086F945 /* background@2x.png */; };
+		6BD709D4143523BD0086F945 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BD709D2143523BD0086F945 /* background.png */; };
+		6BD709D7143523CC0086F945 /* yipitBg.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BD709D5143523CC0086F945 /* yipitBg.png */; };
+		6BD709D8143523CC0086F945 /* yipitBg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BD709D6143523CC0086F945 /* yipitBg@2x.png */; };
+		6BD709DB143524220086F945 /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BD709D9143524220086F945 /* back.png */; };
+		6BD709DC143524220086F945 /* back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BD709DA143524220086F945 /* back@2x.png */; };
+		6BD709DF143524450086F945 /* loadingBg.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BD709DD143524450086F945 /* loadingBg.png */; };
+		6BD709E0143524450086F945 /* loadingBg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BD709DE143524450086F945 /* loadingBg@2x.png */; };
+		6BD709E31435246F0086F945 /* buyItBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BD709E11435246F0086F945 /* buyItBtn.png */; };
+		6BD709E41435246F0086F945 /* buyItBtn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BD709E21435246F0086F945 /* buyItBtn@2x.png */; };
+		6BD709E7143524830086F945 /* questionLayer.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BD709E5143524830086F945 /* questionLayer.png */; };
+		6BD709E8143524830086F945 /* questionLayer@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BD709E6143524830086F945 /* questionLayer@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6BD7097914351E680086F945 /* GrouponApi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GrouponApi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BD7097D14351E680086F945 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6BD7097F14351E680086F945 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6BD7098114351E680086F945 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6BD7098514351E680086F945 /* GrouponApi-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GrouponApi-Info.plist"; sourceTree = "<group>"; };
+		6BD7098714351E680086F945 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6BD7098914351E680086F945 /* GrouponApi-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GrouponApi-Prefix.pch"; sourceTree = "<group>"; };
+		6BD7098A14351E680086F945 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6BD7098C14351E680086F945 /* GrouponApiAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GrouponApiAppDelegate.h; sourceTree = "<group>"; };
+		6BD7098D14351E680086F945 /* GrouponApiAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GrouponApiAppDelegate.m; sourceTree = "<group>"; };
+		6BD7099014351E680086F945 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		6BD7099714351EC40086F945 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		6BD7099914351F330086F945 /* top_bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = top_bar.png; sourceTree = "<group>"; };
+		6BD7099E14351F840086F945 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		6BD7099F14351F840086F945 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		6BD709A214351FC20086F945 /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
+		6BD709A314351FC20086F945 /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = "<group>"; };
+		6BD709A414351FC20086F945 /* NSObject+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJSON.m"; sourceTree = "<group>"; };
+		6BD709A514351FC20086F945 /* NSString+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SBJSON.h"; sourceTree = "<group>"; };
+		6BD709A614351FC20086F945 /* NSString+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SBJSON.m"; sourceTree = "<group>"; };
+		6BD709A714351FC20086F945 /* SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJSON.h; sourceTree = "<group>"; };
+		6BD709A814351FC20086F945 /* SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJSON.m; sourceTree = "<group>"; };
+		6BD709A914351FC20086F945 /* SBJsonBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonBase.h; sourceTree = "<group>"; };
+		6BD709AA14351FC20086F945 /* SBJsonBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonBase.m; sourceTree = "<group>"; };
+		6BD709AB14351FC20086F945 /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		6BD709AC14351FC20086F945 /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
+		6BD709AD14351FC20086F945 /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		6BD709AE14351FC20086F945 /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
+		6BD709B714351FFE0086F945 /* DealsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DealsViewController.h; sourceTree = "<group>"; };
+		6BD709B814351FFE0086F945 /* DealsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DealsViewController.m; sourceTree = "<group>"; };
+		6BD709B914351FFE0086F945 /* DealsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DealsCell.h; sourceTree = "<group>"; };
+		6BD709BA14351FFE0086F945 /* DealsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DealsCell.m; sourceTree = "<group>"; };
+		6BD709BE143520440086F945 /* WebPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebPageViewController.h; sourceTree = "<group>"; };
+		6BD709BF143520440086F945 /* WebPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebPageViewController.m; sourceTree = "<group>"; };
+		6BD709C11435208C0086F945 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		6BD709C21435208C0086F945 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		6BD709C6143521240086F945 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		6BD709C7143521240086F945 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		6BD709C9143521AD0086F945 /* dealsBtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dealsBtn.png; sourceTree = "<group>"; };
+		6BD709CA143521AD0086F945 /* dealsBtn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dealsBtn@2x.png"; sourceTree = "<group>"; };
+		6BD709CD1435238F0086F945 /* menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu.png; sourceTree = "<group>"; };
+		6BD709CE1435238F0086F945 /* menu@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu@2x.png"; sourceTree = "<group>"; };
+		6BD709D1143523BD0086F945 /* background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background@2x.png"; sourceTree = "<group>"; };
+		6BD709D2143523BD0086F945 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		6BD709D5143523CC0086F945 /* yipitBg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yipitBg.png; sourceTree = "<group>"; };
+		6BD709D6143523CC0086F945 /* yipitBg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "yipitBg@2x.png"; sourceTree = "<group>"; };
+		6BD709D9143524220086F945 /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
+		6BD709DA143524220086F945 /* back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back@2x.png"; sourceTree = "<group>"; };
+		6BD709DD143524450086F945 /* loadingBg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loadingBg.png; sourceTree = "<group>"; };
+		6BD709DE143524450086F945 /* loadingBg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "loadingBg@2x.png"; sourceTree = "<group>"; };
+		6BD709E11435246F0086F945 /* buyItBtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buyItBtn.png; sourceTree = "<group>"; };
+		6BD709E21435246F0086F945 /* buyItBtn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "buyItBtn@2x.png"; sourceTree = "<group>"; };
+		6BD709E5143524830086F945 /* questionLayer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = questionLayer.png; sourceTree = "<group>"; };
+		6BD709E6143524830086F945 /* questionLayer@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "questionLayer@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6BD7097614351E680086F945 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BD7097E14351E680086F945 /* UIKit.framework in Frameworks */,
+				6BD7098014351E680086F945 /* Foundation.framework in Frameworks */,
+				6BD7098214351E680086F945 /* CoreGraphics.framework in Frameworks */,
+				6BD7099814351EC40086F945 /* CoreLocation.framework in Frameworks */,
+				6BD709C31435208C0086F945 /* libxml2.dylib in Frameworks */,
+				6BD709C41435208C0086F945 /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6BD7096E14351E680086F945 = {
+			isa = PBXGroup;
+			children = (
+				6BD7098314351E680086F945 /* GrouponApi */,
+				6BD7097C14351E680086F945 /* Frameworks */,
+				6BD7097A14351E680086F945 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6BD7097A14351E680086F945 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6BD7097914351E680086F945 /* GrouponApi.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6BD7097C14351E680086F945 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6BD709C11435208C0086F945 /* libxml2.dylib */,
+				6BD709C21435208C0086F945 /* SystemConfiguration.framework */,
+				6BD7099714351EC40086F945 /* CoreLocation.framework */,
+				6BD7097D14351E680086F945 /* UIKit.framework */,
+				6BD7097F14351E680086F945 /* Foundation.framework */,
+				6BD7098114351E680086F945 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6BD7098314351E680086F945 /* GrouponApi */ = {
+			isa = PBXGroup;
+			children = (
+				6BD709C5143521100086F945 /* MainViewController */,
+				6BD709BD143520180086F945 /* WebPage */,
+				6BD709B614351FE70086F945 /* Deals */,
+				6BD709B514351FDB0086F945 /* AppDelegate */,
+				6BD7098414351E680086F945 /* Supporting Files */,
+			);
+			path = GrouponApi;
+			sourceTree = "<group>";
+		};
+		6BD7098414351E680086F945 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6BD7099C14351F6A0086F945 /* Utils */,
+				6BD7099B14351F360086F945 /* images */,
+				6BD7098514351E680086F945 /* GrouponApi-Info.plist */,
+				6BD7098614351E680086F945 /* InfoPlist.strings */,
+				6BD7098914351E680086F945 /* GrouponApi-Prefix.pch */,
+				6BD7098A14351E680086F945 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6BD7099B14351F360086F945 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				6BD709E5143524830086F945 /* questionLayer.png */,
+				6BD709E6143524830086F945 /* questionLayer@2x.png */,
+				6BD709E11435246F0086F945 /* buyItBtn.png */,
+				6BD709E21435246F0086F945 /* buyItBtn@2x.png */,
+				6BD709DD143524450086F945 /* loadingBg.png */,
+				6BD709DE143524450086F945 /* loadingBg@2x.png */,
+				6BD709D9143524220086F945 /* back.png */,
+				6BD709DA143524220086F945 /* back@2x.png */,
+				6BD709D5143523CC0086F945 /* yipitBg.png */,
+				6BD709D6143523CC0086F945 /* yipitBg@2x.png */,
+				6BD709D1143523BD0086F945 /* background@2x.png */,
+				6BD709D2143523BD0086F945 /* background.png */,
+				6BD709CD1435238F0086F945 /* menu.png */,
+				6BD709CE1435238F0086F945 /* menu@2x.png */,
+				6BD709C9143521AD0086F945 /* dealsBtn.png */,
+				6BD709CA143521AD0086F945 /* dealsBtn@2x.png */,
+				6BD7099914351F330086F945 /* top_bar.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		6BD7099C14351F6A0086F945 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				6BD709A114351FB10086F945 /* JSON */,
+				6BD7099D14351F710086F945 /* Reachability */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		6BD7099D14351F710086F945 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				6BD7099E14351F840086F945 /* Reachability.h */,
+				6BD7099F14351F840086F945 /* Reachability.m */,
+			);
+			name = Reachability;
+			sourceTree = "<group>";
+		};
+		6BD709A114351FB10086F945 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				6BD709A214351FC20086F945 /* JSON.h */,
+				6BD709A314351FC20086F945 /* NSObject+SBJSON.h */,
+				6BD709A414351FC20086F945 /* NSObject+SBJSON.m */,
+				6BD709A514351FC20086F945 /* NSString+SBJSON.h */,
+				6BD709A614351FC20086F945 /* NSString+SBJSON.m */,
+				6BD709A714351FC20086F945 /* SBJSON.h */,
+				6BD709A814351FC20086F945 /* SBJSON.m */,
+				6BD709A914351FC20086F945 /* SBJsonBase.h */,
+				6BD709AA14351FC20086F945 /* SBJsonBase.m */,
+				6BD709AB14351FC20086F945 /* SBJsonParser.h */,
+				6BD709AC14351FC20086F945 /* SBJsonParser.m */,
+				6BD709AD14351FC20086F945 /* SBJsonWriter.h */,
+				6BD709AE14351FC20086F945 /* SBJsonWriter.m */,
+			);
+			name = JSON;
+			sourceTree = "<group>";
+		};
+		6BD709B514351FDB0086F945 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				6BD7098C14351E680086F945 /* GrouponApiAppDelegate.h */,
+				6BD7098D14351E680086F945 /* GrouponApiAppDelegate.m */,
+				6BD7098F14351E680086F945 /* MainWindow.xib */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		6BD709B614351FE70086F945 /* Deals */ = {
+			isa = PBXGroup;
+			children = (
+				6BD709B714351FFE0086F945 /* DealsViewController.h */,
+				6BD709B814351FFE0086F945 /* DealsViewController.m */,
+				6BD709B914351FFE0086F945 /* DealsCell.h */,
+				6BD709BA14351FFE0086F945 /* DealsCell.m */,
+			);
+			name = Deals;
+			sourceTree = "<group>";
+		};
+		6BD709BD143520180086F945 /* WebPage */ = {
+			isa = PBXGroup;
+			children = (
+				6BD709BE143520440086F945 /* WebPageViewController.h */,
+				6BD709BF143520440086F945 /* WebPageViewController.m */,
+			);
+			name = WebPage;
+			sourceTree = "<group>";
+		};
+		6BD709C5143521100086F945 /* MainViewController */ = {
+			isa = PBXGroup;
+			children = (
+				6BD709C6143521240086F945 /* MainViewController.h */,
+				6BD709C7143521240086F945 /* MainViewController.m */,
+			);
+			name = MainViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6BD7097814351E680086F945 /* GrouponApi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BD7099414351E680086F945 /* Build configuration list for PBXNativeTarget "GrouponApi" */;
+			buildPhases = (
+				6BD7097514351E680086F945 /* Sources */,
+				6BD7097614351E680086F945 /* Frameworks */,
+				6BD7097714351E680086F945 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GrouponApi;
+			productName = GrouponApi;
+			productReference = 6BD7097914351E680086F945 /* GrouponApi.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6BD7097014351E680086F945 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = Self;
+			};
+			buildConfigurationList = 6BD7097314351E680086F945 /* Build configuration list for PBXProject "GrouponApi" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6BD7096E14351E680086F945;
+			productRefGroup = 6BD7097A14351E680086F945 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6BD7097814351E680086F945 /* GrouponApi */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6BD7097714351E680086F945 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BD7098814351E680086F945 /* InfoPlist.strings in Resources */,
+				6BD7099114351E680086F945 /* MainWindow.xib in Resources */,
+				6BD7099A14351F330086F945 /* top_bar.png in Resources */,
+				6BD709CB143521AD0086F945 /* dealsBtn.png in Resources */,
+				6BD709CC143521AD0086F945 /* dealsBtn@2x.png in Resources */,
+				6BD709CF1435238F0086F945 /* menu.png in Resources */,
+				6BD709D01435238F0086F945 /* menu@2x.png in Resources */,
+				6BD709D3143523BD0086F945 /* background@2x.png in Resources */,
+				6BD709D4143523BD0086F945 /* background.png in Resources */,
+				6BD709D7143523CC0086F945 /* yipitBg.png in Resources */,
+				6BD709D8143523CC0086F945 /* yipitBg@2x.png in Resources */,
+				6BD709DB143524220086F945 /* back.png in Resources */,
+				6BD709DC143524220086F945 /* back@2x.png in Resources */,
+				6BD709DF143524450086F945 /* loadingBg.png in Resources */,
+				6BD709E0143524450086F945 /* loadingBg@2x.png in Resources */,
+				6BD709E31435246F0086F945 /* buyItBtn.png in Resources */,
+				6BD709E41435246F0086F945 /* buyItBtn@2x.png in Resources */,
+				6BD709E7143524830086F945 /* questionLayer.png in Resources */,
+				6BD709E8143524830086F945 /* questionLayer@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6BD7097514351E680086F945 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BD7098B14351E680086F945 /* main.m in Sources */,
+				6BD7098E14351E680086F945 /* GrouponApiAppDelegate.m in Sources */,
+				6BD709A014351F840086F945 /* Reachability.m in Sources */,
+				6BD709AF14351FC20086F945 /* NSObject+SBJSON.m in Sources */,
+				6BD709B014351FC20086F945 /* NSString+SBJSON.m in Sources */,
+				6BD709B114351FC20086F945 /* SBJSON.m in Sources */,
+				6BD709B214351FC20086F945 /* SBJsonBase.m in Sources */,
+				6BD709B314351FC20086F945 /* SBJsonParser.m in Sources */,
+				6BD709B414351FC20086F945 /* SBJsonWriter.m in Sources */,
+				6BD709BB14351FFE0086F945 /* DealsViewController.m in Sources */,
+				6BD709BC14351FFE0086F945 /* DealsCell.m in Sources */,
+				6BD709C0143520440086F945 /* WebPageViewController.m in Sources */,
+				6BD709C8143521240086F945 /* MainViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6BD7098614351E680086F945 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6BD7098714351E680086F945 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6BD7098F14351E680086F945 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6BD7099014351E680086F945 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6BD7099214351E680086F945 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6BD7099314351E680086F945 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		6BD7099514351E680086F945 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GrouponApi/GrouponApi-Prefix.pch";
+				INFOPLIST_FILE = "GrouponApi/GrouponApi-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6BD7099614351E680086F945 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GrouponApi/GrouponApi-Prefix.pch";
+				INFOPLIST_FILE = "GrouponApi/GrouponApi-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6BD7097314351E680086F945 /* Build configuration list for PBXProject "GrouponApi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BD7099214351E680086F945 /* Debug */,
+				6BD7099314351E680086F945 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BD7099414351E680086F945 /* Build configuration list for PBXNativeTarget "GrouponApi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BD7099514351E680086F945 /* Debug */,
+				6BD7099614351E680086F945 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6BD7097014351E680086F945 /* Project object */;
+}
